@@ -3,7 +3,7 @@ import CollectionList from './CollectionList';
 import AddCollectionForm from './AddCollectionForm';
 import Modal from './Modal';
 import './App.css';
-import Logo from '../assets/logokevin.png';
+import Logo from '../assets/thisme.png';
 
 const App = () => {
   const [collections, setCollections] = useState(() => {
