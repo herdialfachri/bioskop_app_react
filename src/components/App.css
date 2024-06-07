@@ -3,16 +3,16 @@ body {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  background-color: #d8d8d8;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
 }
 
 .container {
-  max-width: 700px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to right, #2a5298, #1e3c72);
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .banner {
@@ -37,6 +37,7 @@ h1 {
   padding: 12px;
   margin-bottom: 20px;
   background-color: #3fbb49;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   color: white;
   border: none;
   border-radius: 6px;
@@ -70,7 +71,7 @@ h1 {
 .modal-content {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   width: 400px;
   max-width: 90%;
@@ -79,6 +80,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+  margin: 0 auto 15px auto;
   gap: 15px;
 }
 
@@ -136,7 +138,8 @@ button:hover {
   padding: 15px;
   border: 0px solid #ffffff;
   border-radius: 6px;
-  background-color: #1852be;
+  background-color: #4169b3;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   transition: background-color 0.3s, box-shadow 0.3s;
 }

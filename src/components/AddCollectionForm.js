@@ -30,7 +30,7 @@ const AddCollectionForm = ({ onAdd }) => {
       />
       <input
         type="text"
-        placeholder="Artist"
+        placeholder="Description"
         value={artist}
         onChange={(e) => setArtist(e.target.value)}
       />

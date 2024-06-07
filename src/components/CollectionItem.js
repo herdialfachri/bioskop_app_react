@@ -31,7 +31,7 @@ const CollectionItem = ({ collection, onDelete, onUpdate }) => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor={`artist-${collection.id}`}>Artist</label>
+            <label htmlFor={`artist-${collection.id}`}>Description</label>
             <input
               id={`artist-${collection.id}`}
               type="text"
